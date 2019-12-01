@@ -3,6 +3,11 @@
 
 James Cust, David Mihalyi and Alexis Rivera-Ballesteros
 
+## [1. Codebook](#variables)  
+## [2. NPV calculation](#npv-calculation)   
+## [3. Summary](#summary)  
+## [4. Bibliography](#bibliography)
+
 ![image](https://i.imgur.com/qmN897C.png)
 
 
