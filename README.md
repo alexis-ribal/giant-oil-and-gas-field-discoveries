@@ -226,38 +226,57 @@ All the new data poured into this dataset comes from public sources and each obs
 
 The dataset comprises a total of 1,060 giant oil and gas field discoveries in 78 countries across seven different regions.  Europe & Central Asia (ECA) and the Middle East & North Africa (MNA) have the highest count of giant oil and gas field discoveries.  These regions are followed by the US and Canada (NAC), East Asia & the Pacific (EAP), Latin America & the Caribbean (LAC), Sub-Saharan Africa (SSA) and South East Asia (SAR).
 
-FIGURE 1
+|_Region_|_Giant discoveries_|_% of total_|
+|--------|-------------------|------------|
+| ECA	 | 285               |	26.89     |
+| MNA	 | 285               |	26.89     |
+| NAC    |	142          |	13.4      |
+| EAP    |	119          |	11.23     |
+| LAC    |	118	     |  11.13     |
+| SSA	 |  95	             |   8.96     |
+| SAR	 |16                 |	 1.51     |
+##### Figure 1. Number of giant oil and gas discoveries by region and share of total. Source: Cust et al (2019)
 
 Map 1 shows the concentration of giant oil and gas field discoveries.  In the Middle East & North Africa region, Libya and countries around the Persian Gulf had discovered more giant oil and gas fields than any other countries in that region.  In Sub-Saharan Africa, Nigeria concentrates the largest number of giant oil and gas field discoveries of that region, while in Latin America, no other country had discovered more giant oil and gas fields than Venezuela, Brazil and Mexico.  The countries that have discovered more than 100 giant oil and gas fields are Russia with 158 and the US with 116.  After them, the countries with more giant oil and gas field discoveries are Iran (70), Saudi Arabia (59) and China (38).  Countries in white represent those that haven’t found any giant oil and gas field, countries that are typically landlocked.
 
+![image](https://i.imgur.com/NJX7xsO.png)
+##### Map 1. Count of giant discoveries by country.
+
 In terms of the cumulative estimated ultimate recovery (EUR) resources measured in million barrels of oil equivalent (MMBOE) from all giant oil and gas field discoveries by country, Russia leads the list with more than 460 billion barrels of oil equivalent since 1868.  The US (159 billions), which is the country with the second highest count of giant oil and gas field discoveries, drops to the sixth place since its giant discoveries were relatively smaller.  The countries that lead the list after Russia are Saudi Arabia (372 billions), Iran (352 billions), Qatar (204 billions) and Iraq (167 billions).  Map 2 shows the distribution of these resources measured in EUR in all the world. The five countries mentioned above plus the US account for more than 60% of all the EUR from oil and gas fields discovered between 1868 and 2019.
 
-![image](https://i.imgur.com/766V7d4.png)
-
-MAP 2
-
-MAP 3
+![image](https://i.imgur.com/oYRhyCZ.png)
+##### Map 2. Cumulative EUR from giant oil and gas field discoveries by country (1868-2019)
 
 In this dataset there are 101 giant oil and gas field discoveries that exceed the 50 billion barrels of oil equivalent, also known as supergiant discoveries (MMBOE > 5,000) or megagiant discoveries (MMBOE > 50,000).  Almost half of them were discovered in the Middle East & North Africa, while one fourth of them were discovered in Europe & Central Asia and the other fourth in the rest of the world.  The first giant oil and gas fields that exceeded the 5 billion barrels of oil equivalent were discovered in Venezuela (Lagunillas) and in Oklahoma, United States (Hugoton), both in 1926.  All megagiant oil and gas fields (exceeding 50 billion barrels of oil equivalent, above the red line on figure 2) were discovered in the Middle East & North Africa plus one more in Russia.  In the past few decades, the number of giant oil and gas fields in Middle Eastern and North African countries has been less frequent (see Figure 5).
 
+![image](https://i.imgur.com/766V7d4.png)
+##### Map 3. Cumulative real NPV from giant oil and gas field discoveries by country in million US$ (1868-2019)
+
 Almost half of the super and megagiant oil and gas fields were discovered between 1960 and 1980.  Since the 1990s, the number of super and megagiant discoveries have been fewer, especially in the last decade when there were only four giant oil and gas discoveries.
 
-FIGURE 2
+![image](https://i.imgur.com/V1ibUit.png)
+##### Figure 2. Super and megagiant oil and gas field discoveries. The red line indicates the threshold for megagiant oil and gas field discoveries (above 50 billion barrels of oil equivalent).  Source: Cust et al (2019).
 
 In this dataset, there are 617 giant oil field discoveries, 441 giant gas field discoveries and 2 discoveries where both giant oil and gas resources were combined.  The regions with the largest number of discoveries where the Middle East & North Africa and Europe & Central Asia.  The region with the lowest number of discoveries is South East Asia.  On the other hand, East Asia & Pacific and Europe & Central Asia had more gas than oil giant field discoveries, but there were more oil giant field discoveries in the rest of the regions (see Figure 3). 
 
-FIGURE 3
+![image](https://i.imgur.com/UUG6RC6.png)
+##### Figure 3. Cumulative oil and gas giant field discoveries by region.  Calculated as the count of giant field discoveries by type and by region.  Source: Cust et al (2019).
 
 There were some cases when the real NPV from the giant oil and gas discoveries exceeded the country’s constant GDP of that year.  This happened in Sub-Saharan African and Middle Eastern countries.  However, the most recent Guyanan giant discovery represented a real NPV greater than the country’s GDP.  For many Middle Eastern and Sub-Saharan African countries, real NPV from giant oil and gas field discoveries are an important share of their GDP, however, for the US and Canada, these giant discoveries are a much smaller proportion.  In these two countries giant oil and gas field discoveries mean less than 1% of their GDP (see Figure 4).
 
-FIGURE 4
+![image](https://i.imgur.com/fiyhp7i.png)
+##### Figure 4. Real NPV as percent of constant 2010 GDP vs constant 2010 GDP in billion US dollars, between 1960 and 2017, when GDP data and deflator data are available.  Source: Cust et al (2019).
 
 The NPV of these giant discoveries has changed over the time.  Each region experienced a boom in different periods.  While Middle East & North Africa had a giant oil and gas boom during the 1960s and the 1970s, Latin America & the Caribbean had its giant oil and gas field discoveries boom during the 2000s, due to the supergiant oil discoveries in Brazil and Trinidad and Tobago.  Also, during the last two decades, Sub-Saharan Africa had an important increase of the real NPV from giant oil and gas field discoveries, just behind Latin America (see Figure 5).
 
-FIGURE 5
+![image](https://i.imgur.com/aA9xmbo.png)
+##### Figure 5. Cumulative real NPV from giant oil and gas discoveries by decade and region in billion US dollars.  Calculated as the sum of real NPV of all countries in a region for a period of 10 years. Source: Cust et al (2019)
 
-FIGURE 6
+If we take the real NPV as percent of constant 2010 GDP average by country, we see that these giant oil and gas discoveries have different meanings to the countries.  While the NPV from giant oil and gas discoveries means a very small portion of the US and Canada GDP, it claims more importance for Sub-Saharan African countries, especially during the 1980s and 2000s when the real NPV from them represented in average 50% of Sub-Saharan African countries’ GDP.  Latin America & the Caribbean’s NPV from giant oil and gas discoveries show a larger share of GDP due to the most recent giant discoveries in Trinidad and Tobago and Guyana.  The importance of these giant oil discoveries or the frequency of them has been declining in other regions.  For instance, Middle Eastern countries’ real NPV average from these discoveries has declined to less than 1% in this decade (see Figure 6).
 
+
+![image](https://i.imgur.com/PbiIW0E.png)
+##### Figure 6. Average real NPV as percent of constant 2010 GDP, calculated as the decade average for all countries in each region, converted to log values. Source: Cust et al (2019)
 
 
 
