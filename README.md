@@ -3,11 +3,11 @@
 
 James Cust, David Mihalyi and Alexis Rivera-Ballesteros
 
-## [Home](#giant-oil-and-gas-field-discoveries)
-## [Codebook](#variables)  
-## [NPV calculation](#npv-calculation)   
-## [Summary](#summary)  
-## [Bibliography](#bibliography)
+[Home](#giant-oil-and-gas-field-discoveries)
+[Codebook](#variables)
+[NPV calculation](#npv-calculation)
+[Summary](#summary)
+[Bibliography](#bibliography)
 
 ![image](https://i.imgur.com/qmN897C.png)
 
