@@ -28,101 +28,158 @@ All the data verted in this dataset comes from public datasets, oil and gas comp
 ## VARIABLES
 
 **FIELD_ID**
+
 A field ID with no specific sorting method used.
 
+
 **FLD_NAME**
+
 The name that is commonly used to refer to this field and that frequently appears in different sources used.  This field name could have changed over time or it could vary from one source to another.
 
+
 **FLD_NAME2**
+
 The block name where the field was discovered or a second name also used to refer to this field but differ from the recorded under [FLD_NAME].
 
+
 **REG_NAME and REG_CODE**
+
 Region name and region code used in Horn (2014).  The region names and their one-letter codes are: North America-A, Central and South America-B, Western Europe-C, Eastern Europe and former USSR-D, Middle East-E, Africa-F, Asia and Oceania-G. Source: Horn (2014).
 
 **WB_REGION**
+
 World Bank country groups by geographical region identified with their 3-letter codes.  The regions definition and their codes are: EAP – East Asia & the Pacific, ECA – East Europe & Central Asia, LAC – Latin America & the Caribbean, MNA – Middle East & North Africa, SAR – South Asia and SSA – Sub-Saharan Africa.  Source: World Bank: https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
 
+
 **COUNTRY**
+
 Country common name.  Joint discoveries made by two or more countries have the names of the countries involved.  The dataset has in total 78 countries with at least one giant oil or gas field discovered.
 
+
 **CountrynameWEO - weo_code**
+
 Country name and 3-digit code defined in the World Economic Outlook (WEO) report.  Missing values correspond to joint discoveries between two or more countries.  Source: IMF: https://www.imf.org/external/pubs/ft/weo/2019/02/weodata/index.aspx 
 
+
 **ISO**
+
 ISO-3 letter country code.  Missing values correspond to joint discoveries. Source: UN: https://unstats.un.org/unsd/tradekb/Knowledgebase/Country-Code 
 
+
 **STATE**
+
 Name of the state where the field was discovered.  For USA, Canada and Mexico only, when available.
 
+
 **LAT_DD and LON_DD**
+
 Latitude and longitude in decimal degrees of the location where the field was discovered.  Location coordinates are approximated, and the location accuracy may vary across fields and could be greater than one degree.
 
+
 **ON_OFF_LOC**
+
 Field location.  Indicates whether the field is located onshore or offshore.
 
+
 **year**
+
 Year of the discovery. Year recorded from Horn (2014) or from other sources as indicated in the DISCO_SOURCE1 – DISCO_SOURCE4 columns.
 
+
 **FIELD_TYPE**
+
 Principal type of hydrocarbon discovered in the field that reaches the threshold of giant field discovery.  Most of giant discoveries where oil fields (58.2%), followed by gas (41.6%) and 2 discoveries where both giant oil and gas resources were combined (0.2%).  
 
+
 **SIZE_CLASS**
+
 Classification according to the size of the discovery in million barrels of oil equivalent (MMBOE): Giant (greater than 500 MMBOE but lower than 5,000 MMBOE), Supergiant (greater than 5,000 MMBOE but lower than 50,000 MMBOE) and Megagiant (greater than 50,000 MMBOE).  These values where recorded from the sources listed in the DISCO_SOURCE1 – DISCO_SOURCE4 columns.
 
+
 **SIZE_CLASS_CODE**
+
 One-digit code indicating whether the observation corresponds to a Giant (1), Supergiant (2) or Megagiant (3) field discovery.
 
+
 **EUR_MMBOE**
+
 Estimated ultimate recovery (EUR) measured in million barrels of oil equivalent (MMBOE).  The estimated ultimate recovery is defined as the sum of proven reserves at a specific period of time and the cumulative production up to that time (Morehouse, 2017).  We use the EUR reported from the sources listed in DISCO_SOURCE1 – DISCO_SOURCE4 columns.  Most sources report the amount of oil discovered in barrels of oil equivalent, no further calculations were used to report EUR for giant oil field discoveries.  However, if the amount of oil discovered were reported in metric tons, we used the conversion ratio of 7.33 MMBOE to 1 million metric tons.  Gas field EUR discoveries are typically reported in trillion cubic feet of natural gas (TCF) and these where converted to MMBOE using the conversion ratio of 200 MMBOE to 1 TCF, based on four oil and gas companies’ reports and conversion tables, rounded to the nearest hundred .  The lowest EUR value for all these discoveries is 500 MMBOE and the highest is 176,060 MMBOE corresponding to a field discovered in 1971 in Qatar.
 
+
 **oil_price**
+
 Crude oil prices in dollars per barrel from 1950 to 2018.  These prices are calculated as the average of the three oil reference prices equally weighted in nominal US dollars.  Years of data availability and sources are indicated in parenthesis:
 1.	Brent crude oil (1979-2018, World Bank)
 2.	Arabian light (1950-1959, Quandl) and Dubai Fateh crude oil (1960-2018, World Bank)
 3.	WTI spot crude oil (1950-1981, Federal Reserve Bank of St Louis) and WTI crude oil (1982-2018, World Bank)
 
+
 **gas_price**
+
 Gas prices in nominal US dollars per barrel of oil equivalent from 1950 to 2018. These prices were calculated as the average of US and Europe’s natural gas prices from the US Energy Information Administration (EIA) and World Bank’s Commodity Markets portal measured in dollars per million British thermal units (US$/mmbtu).  These values were converted to dollars per barrel (US$/bbl) using the conversion ratio of 0.17 barrels of oil to 1 million British thermal units, based on four oil and gas companies’ reports and conversion tables, rounded to the two decimal places . Years of data availability and sources are indicated in the parenthesis.
 1.	US natural gas price (1950-1959, EIA; and 1959-2018, World Bank)
 2.	European Union’s natural gas price (1960-2018,   World Bank)
 
 For the Europe’s natural gas price, please consider that the calculations of prices have changed for some years: from April 2015 it uses the Netherlands Title Transfer Facility (TTF); from April 2010 to March 2015 it is calculated with the average import border price and a spot price component, including UK; and during June 2000 - March 2010 prices excludes UK.  
 
+
 **firstdiscoyear**
+
 Year when the first oil or gas giant field was discovered in a country since 1868.
 
+
 **disco_cumu**
+
 Cumulative count of giant oil or gas fields discovered in a country since 1868 at the time of each giant oil or gas field discovery.
 
+
 **disco_count**
+
 Total count of giant fields discovered in a country between 1868 and 2018.  If the country had giant discoveries in 2019, these were also considered.
 
+
 **EUR_cumu**
+
 Cumulative estimated ultimate recovery (EUR) resources in million barrels of oil equivalent (MMBOE) from giant oil and gas fields discovered by country since 1868.
 
 **NPV_USD_n**
 Net present value in nominal million US dollars calculated as the product of multiplying the net present value of the estimated ultimate recovery (EUR) measured in million barrels of oil equivalent (MMBOE) by oil or gas prices, depending on the field type.  The net present value or NPV is defined as today’s value of future cashflows over a period of time and using a certain discount rate.  
 
+
 **defl_uscpi**
+
 Deflator used to convert nominal net present value to real net present value, corresponding to the US price level of household consumption deflator in 2011 dollars from 1950 to 2017 from the Penn World Table version 9.1. Source: https://www.rug.nl/ggdc/productivity/pwt/
 
+
 **NPV_USD_r**
+
 Net present value in real million 2011 US dollars calculated by dividing the nominal net present value [NPV_USD] by the deflator [defl_uscpi].
 
+
 **gdp_curr**
+
 Current gross domestic product in million US dollars. Source: World Bank, https://data.worldbank.org/indicator/NY.GDP.MKTP.CD 
 
+
 **gdp_const**
+
 Gross domestic product in million constant 2010 US dollars. Source: World Bank, https://data.worldbank.org/indicator/NY.GDP.MKTP.KD 
 
-NPV_GDP_n
+
+**NPV_GDP_n**
+
 Field discovery nominal net present value share of current GDP at the year of the oil or gas field discovery, calculated as [NPV_USD_n]/[gdp_curr] x 100.  Values are available from 1960 to 2017.
 
+
 **NPV_GDP_r**
+
 Field discovery real net present value (2011 US dollars) share of constant GDP (2010 US dollars) at the year of the discovery, calculated as [NPV_USD_r]/[gdp_const] x 100   Values are available from 1960 to 2017.
 
+
 **DISCO_SOURCE1, DISCO_SOURCE2, DISCO_SOURCE3, DISCO_SOURCE4**
+
 Website link to the article, press release, blog or any other public access website with relevant information related to the giant field discovery and used to complete the discovered field data.  The website links provide data on year of the discovery, size of the field, EUR discovered, location of the field and type of resource.  All sources used were included up to a total of four sources.  Disclaimer: since all these websites are hosted by third parties, we are not responsible for their content, availability, free access or performance.  Some of these websites might be already deleted, moved, updated or reported as unsafe.  If this is the case, we suggest looking for alternative sources of data using a standard internet browser and the same giant field discovery data as keywords.
+
 
 ## NPV CALCULATION
 
