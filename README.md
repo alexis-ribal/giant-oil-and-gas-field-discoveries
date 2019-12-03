@@ -15,7 +15,7 @@
 [Bibliography](#bibliography)
 
 
-![image](https://i.imgur.com/qmN897C.png)
+![image](https://i.imgur.com/BDCqADC.gif)
 
 
 ## SCOPE
