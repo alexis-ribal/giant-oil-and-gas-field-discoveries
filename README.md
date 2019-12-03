@@ -17,6 +17,10 @@
 
 ![image](https://i.imgur.com/BDCqADC.gif)
 
+# Download data here: [giant_fields_2018.csv](https://github.com/alexis-ribal/giant-oil-and-gas-field-discoveries/blob/master/giant_fields_2018.csv)
+
+<br />
+<br />
 
 ## SCOPE
 
