@@ -22,6 +22,8 @@
 <br />
 <br />
 
+## [Download data here]
+
 ## SCOPE
 
 *Years included*: the dataset contains giant fields that where discovered between 1868 and 2018, however, the net present value for all giant field discoveries is available only after 1950 and their share to GDP only after 1960.  It is expected that more giant fields will be discovered during the publication of this dataset, therefore observations after 2018 will be added in future updated versions of the dataset.
